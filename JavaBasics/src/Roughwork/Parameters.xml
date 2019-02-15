@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="mySuite">
+
+	<parameter name="Username" value="qaplanet1"/>
+ 	<parameter name="Password" value="lab1"/>
+ 	
+ 	<parameter name="Username" value="qaplanet2"/>
+ 	<parameter name="Password" value="lab2"/>
+ 	
+ 	<parameter name="Username" value="qaplanet3"/>
+ 	<parameter name="Password" value="lab3"/>
+
+<test name="myTest" preserve-order="true">
+
+ <classes>
+    <class name="Roughwork.TestNGParam"/>
+    <class name="Roughwork.TestNGParam2"/>
+ </classes>
+</test>
+</suite>

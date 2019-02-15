@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [mySuite]">
+  <parameter name="Username" value="qaplanet3"/>
+  <parameter name="Password" value="lab3"/>
+  <test thread-count="5" name="myTest(failed)">
+    <classes>
+      <class name="Roughwork.TestNGParam">
+        <methods>
+          <include name="addEmp"/>
+          <include name="verifyLogin"/>
+          <include name="closeBrowser"/>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="editEmp"/>
+          <include name="afterClass"/>
+          <include name="Browserlaunch"/>
+        </methods>
+      </class> <!-- Roughwork.TestNGParam -->
+      <class name="Roughwork.TestNGParam2">
+        <methods>
+          <include name="verifyLogin"/>
+          <include name="Browserlaunch"/>
+          <include name="closeBrowser"/>
+          <include name="logout"/>
+          <include name="addEmp"/>
+          <include name="editEmp"/>
+          <include name="afterClass"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- Roughwork.TestNGParam2 -->
+    </classes>
+  </test> <!-- myTest(failed) -->
+</suite> <!-- Failed suite [mySuite] -->
