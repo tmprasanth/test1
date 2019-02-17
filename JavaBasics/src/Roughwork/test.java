@@ -19,7 +19,7 @@ public class test {
 		Thread.sleep(2000);
 		driver.navigate().forward();
 		temp=driver.getCurrentUrl();
-		System.out.println(temp);
+		
 				
 
 	}
